@@ -11,18 +11,18 @@ The app uses the [Contentful][1] [Swift SDK][4] and [persistence library][5].
 
 ## Usage
 
-- Simply run
+Run the following command:
 
 ```
 $ make setup
 ```
 
-This will install all necessary RubyGems, create a new space on [Contentful][1] using 
+This will install all necessary RubyGems, create a new space on [Contentful][1] using
 [Contentful Bootstrap][3], install all necessary [CocoaPods][2] and setup API keys automatically.
 
-Note: this requires bundler, which you most likely already have. In case you are running this on a freshly installed OS X, please run sudo gem install bundler first.
+Note: This requires bundler and CMake, which you may already have. In case you are running this on a freshly installed OS X, please run `sudo gem install bundler` and install CMake with Homebrew first.
 
-- Now you're ready to use it!
+Now you're ready to use it!
 
 ## Customizing
 
